@@ -1,0 +1,8 @@
+version: '2'
+services:
+    spatial-class1:
+        image: fahernandez/spatial-class1:latest
+        networks:
+            - local
+        ports:
+            - '8787:8787'
