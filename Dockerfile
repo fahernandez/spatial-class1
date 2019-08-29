@@ -22,4 +22,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     BiocManager \
     sp \
     raster \
-    rgdal
+    rgdal \
+    dismo \
+    XML \
+    knitr
